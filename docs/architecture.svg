@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<style>
+.box{fill:#f7f7f7;stroke:#333;stroke-width:2;rx:12}
+.t{font-family:Arial,sans-serif;font-size:17px;fill:#111}
+.s{font-family:Arial,sans-serif;font-size:13px;fill:#333}
+.a{stroke:#333;stroke-width:2;marker-end:url(#m)}
+</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 z" fill="#333"/></marker></defs>
+<rect class="box" x="30" y="60" width="190" height="100"/><text class="t" x="125" y="95" text-anchor="middle">Hospital Gateway</text><text class="s" x="125" y="120" text-anchor="middle">3 cameras • timestamps</text><text class="s" x="125" y="140" text-anchor="middle">auth • QoS metadata</text>
+<rect class="box" x="280" y="60" width="190" height="100"/><text class="t" x="375" y="95" text-anchor="middle">Kinesis Video</text><text class="s" x="375" y="120" text-anchor="middle">ephemeral video path</text><text class="s" x="375" y="140" text-anchor="middle">policy-controlled TTL</text>
+<rect class="box" x="530" y="60" width="220" height="100"/><text class="t" x="640" y="95" text-anchor="middle">Decode + Sync</text><text class="s" x="640" y="120" text-anchor="middle">jitter buffer • alignment</text><text class="s" x="640" y="140" text-anchor="middle">quality / dropped-frame flags</text>
+<rect class="box" x="810" y="60" width="240" height="100"/><text class="t" x="930" y="95" text-anchor="middle">Feature + Temporal Inference</text><text class="s" x="930" y="120" text-anchor="middle">quality-aware fusion</text><text class="s" x="930" y="140" text-anchor="middle">multi-scale temporal model</text>
+<path class="a" d="M220 110 L280 110"/><path class="a" d="M470 110 L530 110"/><path class="a" d="M750 110 L810 110"/>
+<rect class="box" x="160" y="260" width="230" height="110"/><text class="t" x="275" y="295" text-anchor="middle">Live Timeline API</text><text class="s" x="275" y="320" text-anchor="middle">workflow phase + boundaries</text><text class="s" x="275" y="345" text-anchor="middle">consumer applications</text>
+<rect class="box" x="450" y="260" width="230" height="110"/><text class="t" x="565" y="295" text-anchor="middle">Hard-Example Events</text><text class="s" x="565" y="320" text-anchor="middle">uncertainty • disagreement</text><text class="s" x="565" y="345" text-anchor="middle">quality • boundary confidence</text>
+<rect class="box" x="740" y="260" width="230" height="110"/><text class="t" x="855" y="295" text-anchor="middle">Observability</text><text class="s" x="855" y="320" text-anchor="middle">latency • GPU • stream health</text><text class="s" x="855" y="345" text-anchor="middle">model drift / SLOs</text>
+<path class="a" d="M930 160 L275 260"/><path class="a" d="M930 160 L565 260"/><path class="a" d="M930 160 L855 260"/>
+<rect class="box" x="300" y="470" width="260" height="110"/><text class="t" x="430" y="505" text-anchor="middle">Offline Curation</text><text class="s" x="430" y="530" text-anchor="middle">embeddings • uncertainty</text><text class="s" x="430" y="550" text-anchor="middle">diversity-aware sampling</text>
+<rect class="box" x="640" y="470" width="260" height="110"/><text class="t" x="770" y="505" text-anchor="middle">Annotation + Retraining</text><text class="s" x="770" y="530" text-anchor="middle">temporal clips • boundaries</text><text class="s" x="770" y="550" text-anchor="middle">approval gates • model registry</text>
+<path class="a" d="M565 370 L430 470"/><path class="a" d="M430 580 L640 525"/>
+</svg>

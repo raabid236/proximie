@@ -1,0 +1,4 @@
+numpy>=1.26,<3
+PyYAML>=6.0,<7
+torch>=2.2,<3
+pytest>=8.0,<9

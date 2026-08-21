@@ -1,0 +1,25 @@
+seed: 42
+num_sensors: 3
+feature_dim_per_sensor: 16
+sequence_length: 600
+train_sequences: 24
+validation_sequences: 8
+num_classes: 4
+
+model:
+  hidden_dim: 48
+  num_layers: 2
+  dropout: 0.10
+
+training:
+  epochs: 8
+  batch_size: 4
+  learning_rate: 0.002
+
+postprocess:
+  median_kernel: 7
+  min_segment_frames: 12
+  merge_gap_frames: 4
+
+evaluation:
+  fps: 2
