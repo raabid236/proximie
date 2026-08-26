@@ -1,4 +1,4 @@
-# Proximie Senior ML Engineer Challenge
+# Proximie OR Prototype
 
 Prototype for live Operating Room (OR) action segmentation under multi-camera, low-bandwidth, and strict data-retention constraints.
 
